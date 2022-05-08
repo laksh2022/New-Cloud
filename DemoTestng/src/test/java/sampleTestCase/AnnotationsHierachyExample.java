@@ -54,5 +54,8 @@ public class AnnotationsHierachyExample {
   public void afterSuite() {
 	  System.out.println("im after suite");
   }
+  public void gitHubPractice() {
+	  System.out.println("gitHubPractice");
+  }
 
 }
