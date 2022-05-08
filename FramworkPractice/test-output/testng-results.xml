@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-20T17:13:17Z" name="Default suite" finished-at="2022-04-20T17:14:29Z" duration-ms="72726">
+    <groups>
+    </groups>
+    <test started-at="2022-04-20T17:13:17Z" name="Default test" finished-at="2022-04-20T17:14:29Z" duration-ms="72726">
+      <class name="frameworkDemo.Login">
+        <test-method signature="loginwithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:frameworkDemo.Login@38ba6ce3]" started-at="2022-04-20T17:13:17Z" name="loginwithBothCorrect" data-provider="loginData" finished-at="2022-04-20T17:13:38Z" duration-ms="21735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithBothCorrect -->
+        <test-method signature="loginwithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:frameworkDemo.Login@38ba6ce3]" started-at="2022-04-20T17:13:38Z" name="loginwithBothCorrect" data-provider="loginData" finished-at="2022-04-20T17:13:56Z" duration-ms="17300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithBothCorrect -->
+        <test-method signature="loginwithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:frameworkDemo.Login@38ba6ce3]" started-at="2022-04-20T17:13:56Z" name="loginwithBothCorrect" data-provider="loginData" finished-at="2022-04-20T17:14:14Z" duration-ms="18520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithBothCorrect -->
+        <test-method signature="loginwithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:frameworkDemo.Login@38ba6ce3]" started-at="2022-04-20T17:14:14Z" name="loginwithBothCorrect" data-provider="loginData" finished-at="2022-04-20T17:14:29Z" duration-ms="14939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithBothCorrect -->
+      </class> <!-- frameworkDemo.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

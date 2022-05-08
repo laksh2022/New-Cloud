@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T04:52:58Z" name="Suite" finished-at="2022-05-06T04:52:59Z" duration-ms="219">
+    <groups>
+      <group name="Lenovo">
+        <method signature="GroupingExample.lenovo1()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" name="lenovo1" class="sampleTestCase.GroupingExample"/>
+        <method signature="GroupingExample.lenovo2()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" name="lenovo2" class="sampleTestCase.GroupingExample"/>
+      </group> <!-- Lenovo -->
+      <group name="Moto">
+        <method signature="GroupingExample.moto1()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" name="moto1" class="sampleTestCase.GroupingExample"/>
+        <method signature="GroupingExample.moto2()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" name="moto2" class="sampleTestCase.GroupingExample"/>
+      </group> <!-- Moto -->
+    </groups>
+    <test started-at="2022-05-06T04:52:58Z" name="Test" finished-at="2022-05-06T04:52:59Z" duration-ms="219">
+      <class name="sampleTestCase.GroupingExample">
+        <test-method signature="lenovo1()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" started-at="2022-05-06T04:52:58Z" name="lenovo1" finished-at="2022-05-06T04:52:58Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovo1 -->
+        <test-method signature="lenovo2()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" started-at="2022-05-06T04:52:58Z" name="lenovo2" finished-at="2022-05-06T04:52:59Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovo2 -->
+        <test-method signature="moto1()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" started-at="2022-05-06T04:52:59Z" name="moto1" finished-at="2022-05-06T04:52:59Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto1 -->
+        <test-method signature="moto2()[pri:0, instance:sampleTestCase.GroupingExample@6e005dc9]" started-at="2022-05-06T04:52:59Z" name="moto2" finished-at="2022-05-06T04:52:59Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto2 -->
+      </class> <!-- sampleTestCase.GroupingExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

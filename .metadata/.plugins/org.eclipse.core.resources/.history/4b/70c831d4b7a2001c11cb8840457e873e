@@ -1,0 +1,22 @@
+package SampleMaven.DemoSlenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class RamLaxDemo {
+	public static void main(String[] args) throws Exception {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.netflix.com/in/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//a[@class='authLinks redButton']")).click();
+		Thread.sleep(3000);
+		driver.close();
+		
+	}
+
+}
